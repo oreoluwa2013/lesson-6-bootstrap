@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        nav {
+            background-color: aqua;
+            padding: none;
+            border-radius: 500px;
+            border: dotted aqua;
+    
+    
+        }
+    
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+    
+        }
+    
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: 0.5s ease;
+    
+        }
+    
+        nav a:hover {
+            color: black;
+        }
+    
+        .btn-1 {
+            padding: 10px 5px;
+            background-color: white;
+            color: aqua;
+            border: none;
+            border-radius: 50px;
+            transform: rotate(360deg);
+    
+        }
+    
+        .btn-1:hover {
+            background-color: black
+        }
+    
+        .btn-2 {
+            padding: 10px 5px;
+            background-color: white;
+            color: aqua;
+            border: none;
+            border-radius: 50px;
+            transform: rotate(180deg);
+    
+        }
+    
+        .btn-2:hover {
+            background-color: green
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="#">NAME</a></li>
+        <BR>
+        <li><a href="#">AGE</a></li>
+        <BR>
+        <li><a href="#">CONTACT US</a></li>
+        <BR>
+
+        <button class="btn-1">SIGN UP</button>
+
+        <button class="btn-2">SIGN IN</button>
+
+
+    </ul>
+
+
+
+
+</nav>
+    <div class="row">
+        <div class="col-4">
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">item 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example"
+                tabindex="0">
+                <h4 id="list-item-1">Item 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae fermentum augue. Integer tempus
+                    magna mi,
+                    molestie pretium turpis posuere ac. Maecenas luctus sapien at imperdiet blandit. Proin nec sem risus.
+                    Aliquam erat
+                    volutpat. Aenean euismod dui quis arcu dignissim commodo. Sed id lectus congue, tempor nisi quis,
+                    pulvinar ante. Morbi
+                    sit amet luctus dolor, vitae bibendum justo. Nullam quis felis at augue efficitur volutpat sed ut metus.
+    
+                    Pellentesque quis turpis finibus tortor aliquet semper. Quisque fermentum ipsum id auctor tincidunt.
+                    Quisque ultrices
+                    feugiat nisl vel tristique. Nunc bibendum tempus dolor, eu hendrerit felis. Curabitur ornare quam a nisl
+                    mattis.</p>
+                <h4 id="list-item-2">Item 2</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae fermentum augue. Integer tempus
+                    magna mi,
+                    molestie pretium turpis posuere ac. Maecenas luctus sapien at imperdiet blandit. Proin nec sem risus.
+                    Aliquam erat
+                    volutpat. Aenean euismod dui quis arcu dignissim commodo. Sed id lectus congue, tempor nisi quis,
+                    pulvinar ante. Morbi
+                    sit amet luctus dolor, vitae bibendum justo. Nullam quis felis at augue efficitur volutpat sed ut metus.
+    
+                    Pellentesque quis turpis finibus tortor aliquet semper. Quisque fermentum ipsum id auctor tincidunt.
+                    Quisque ultrices
+                    feugiat nisl vel tristique. Nunc bibendum tempus dolor, eu hendrerit felis. Curabitur ornare quam a nisl
+                    mattis.</p>
+                <h4 id="list-item-3">Item 3</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae fermentum augue. Integer tempus
+                    magna mi,
+                    molestie pretium turpis posuere ac. Maecenas luctus sapien at imperdiet blandit. Proin nec sem risus.
+                    Aliquam erat
+                    volutpat. Aenean euismod dui quis arcu dignissim commodo. Sed id lectus congue, tempor nisi quis,
+                    pulvinar ante. Morbi
+                    sit amet luctus dolor, vitae bibendum justo. Nullam quis felis at augue efficitur volutpat sed ut metus.
+    
+                    Pellentesque quis turpis finibus tortor aliquet semper. Quisque fermentum ipsum id auctor tincidunt.
+                    Quisque ultrices
+                    feugiat nisl vel tristique. Nunc bibendum tempus dolor, eu hendrerit felis. Curabitur ornare quam a nisl
+                    mattis.</p>
+                <h4 id="list-item-4">Item 4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae fermentum augue. Integer tempus
+                    magna mi,
+                    molestie pretium turpis posuere ac. Maecenas luctus sapien at imperdiet blandit. Proin nec sem risus.
+                    Aliquam erat
+                    volutpat. Aenean euismod dui quis arcu dignissim commodo. Sed id lectus congue, tempor nisi quis,
+                    pulvinar ante. Morbi
+                    sit amet luctus dolor, vitae bibendum justo. Nullam quis felis at augue efficitur volutpat sed ut metus.
+    
+                    Pellentesque quis turpis finibus tortor aliquet semper. Quisque fermentum ipsum id auctor tincidunt.
+                    Quisque ultrices
+                    feugiat nisl vel tristique. Nunc bibendum tempus dolor, eu hendrerit felis. Curabitur ornare quam a nisl
+                    mattis.</p>
+            </div>
+        </div>
+    </div>
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
